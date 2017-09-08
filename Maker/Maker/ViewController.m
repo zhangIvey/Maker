@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "Maker.h"
+#import "NSObject+Maker.h"
 
 @interface ViewController ()
 
@@ -16,6 +18,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    int result = [NSObject getResult:^(Maker *maker){
+        maker.add(7).add(10);
+    }];
+    NSLog(@"result = %d",result);
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 

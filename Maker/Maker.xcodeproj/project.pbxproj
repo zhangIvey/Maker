@@ -13,6 +13,8 @@
 		75584FEC1F624062003C41E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75584FEA1F624062003C41E4 /* Main.storyboard */; };
 		75584FEE1F624062003C41E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75584FED1F624062003C41E4 /* Assets.xcassets */; };
 		75584FF11F624062003C41E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75584FEF1F624062003C41E4 /* LaunchScreen.storyboard */; };
+		75584FFA1F6240D4003C41E4 /* Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 75584FF91F6240D4003C41E4 /* Maker.m */; };
+		75584FFD1F624523003C41E4 /* NSObject+Maker.m in Sources */ = {isa = PBXBuildFile; fileRef = 75584FFC1F624523003C41E4 /* NSObject+Maker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		75584FED1F624062003C41E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75584FF01F624062003C41E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75584FF21F624062003C41E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75584FF81F6240D4003C41E4 /* Maker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Maker.h; sourceTree = "<group>"; };
+		75584FF91F6240D4003C41E4 /* Maker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Maker.m; sourceTree = "<group>"; };
+		75584FFB1F624523003C41E4 /* NSObject+Maker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Maker.h"; sourceTree = "<group>"; };
+		75584FFC1F624523003C41E4 /* NSObject+Maker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Maker.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,10 @@
 				75584FEF1F624062003C41E4 /* LaunchScreen.storyboard */,
 				75584FF21F624062003C41E4 /* Info.plist */,
 				75584FE11F624062003C41E4 /* Supporting Files */,
+				75584FF81F6240D4003C41E4 /* Maker.h */,
+				75584FF91F6240D4003C41E4 /* Maker.m */,
+				75584FFB1F624523003C41E4 /* NSObject+Maker.h */,
+				75584FFC1F624523003C41E4 /* NSObject+Maker.m */,
 			);
 			path = Maker;
 			sourceTree = "<group>";
@@ -152,6 +162,8 @@
 			files = (
 				75584FE91F624062003C41E4 /* ViewController.m in Sources */,
 				75584FE61F624062003C41E4 /* AppDelegate.m in Sources */,
+				75584FFD1F624523003C41E4 /* NSObject+Maker.m in Sources */,
+				75584FFA1F6240D4003C41E4 /* Maker.m in Sources */,
 				75584FE31F624062003C41E4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
